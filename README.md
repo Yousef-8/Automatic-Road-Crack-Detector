@@ -5,12 +5,12 @@ in this repository. Download them from:
 
 https://www.kaggle.com/datasets/youseffuadahmed/road-crack-yolo-final-weights
 
-Place them in the `models/` folder of the project before running the app:
+Place he 2 files  in the `models/` folder of the project before running the app:
 
-road-crack-detector/
-└── models/
-    ├── raw_best.pt
-    └── prep_best.pt
+So it should be like:
+road-crack-detector/ models/raw_best.pt
+and
+road-crack-detector/ models/prep_best.pt
 
 ## Steps to run his project:
 
