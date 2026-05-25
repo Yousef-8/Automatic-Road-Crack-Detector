@@ -14,18 +14,18 @@ road-crack-detector/
 
 ## Steps to run his project:
 
-# 1. Extract the zip — it creates road-crack-detector/
-# 2. Place the downlaoded model weights:
-#    road-crack-detector/models/raw_best.pt
-#    road-crack-detector/models/prep_best.pt
+ 1. Extract the zip — it creates road-crack-detector/
+ 2. Place the downlaoded model weights:
+    road-crack-detector/models/raw_best.pt
+    road-crack-detector/models/prep_best.pt
 
-# 3. Create and activate virtualenv
+3. Create and activate virtualenv
 python -m venv .venv
 .venv\Scripts\activate        # for Windows
-# source .venv/bin/activate   # for Mac
+ source .venv/bin/activate   # for Mac
 
-# 4. Install dependencies
+ 4. Install dependencies
 pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
 
-# 5. Run
+ 5. Run
 streamlit run app.py
