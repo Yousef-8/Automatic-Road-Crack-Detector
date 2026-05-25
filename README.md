@@ -9,7 +9,9 @@ Place he 2 files  in the `models/` folder of the project before running the app:
 
 So it should be like:
 road-crack-detector/ models/raw_best.pt
+
 and
+
 road-crack-detector/ models/prep_best.pt
 
 ## Steps to run his project:
