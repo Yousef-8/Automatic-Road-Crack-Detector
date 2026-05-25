@@ -1,0 +1,58 @@
+# =============================================================================
+# Road Crack Detection — .gitignore
+# =============================================================================
+
+# ---- Sensitive / local config ----
+.env                        # contains your model paths and device setting
+                            # use .env.example as the committed template
+
+# ---- Model weights ----
+# Large binary files — download separately from your training run.
+models/
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ---- Virtual environment ----
+.venv/
+venv/
+env/
+ENV/
+.env.bak
+
+# ---- Jupyter / Kaggle notebooks (optional — uncomment to exclude) ----
+# *.ipynb
+# .ipynb_checkpoints/
+
+# ---- Data / outputs ----
+# Raw and preprocessed CSVs are large; exclude unless you want them in the repo.
+*.csv
+outputs/
+runs/            # YOLO training run artefacts
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Streamlit cache ----
+.streamlit/
+
+# ---- Distribution / build ----
+dist/
+build/
+*.egg-info/
+*.egg
