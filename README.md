@@ -26,20 +26,20 @@ road-crack-detector/ models/prep_best.pt
     road-crack-detector/models/prep_best.pt
 
 
-#In the projecta' terminal:
+# In the projecta' terminal:
     
 3. Create and activate virtual environment
  
-`python -m venv .venv`
+      `python -m venv .venv`
 
- `.venv\Scripts\activate`        # for Windows
+      `.venv\Scripts\activate`        # for Windows
  
- `source .venv/bin/activate`   # for Mac
+     `source .venv/bin/activate`   # for Mac
 
  4. Install dependencies:
 
-  `pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu`
+     `pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu`
 
  5. Run the application:
     
-   streamlit run app.py
+     streamlit run app.py
