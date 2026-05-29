@@ -42,4 +42,4 @@ road-crack-detector/ models/prep_best.pt
 
  5. Run the application:
     
-     streamlit run app.py
+     `streamlit run app.py`
