@@ -20,16 +20,26 @@ road-crack-detector/ models/prep_best.pt
  2. Place the downloaded model weights:
     
     road-crack-detector/models/raw_best.pt
+    
     and
+    
     road-crack-detector/models/prep_best.pt
 
-4. Create and activate virtualenv
-python -m venv .venv
-.venv\Scripts\activate        # for Windows
- source .venv/bin/activate   # for Mac
 
- 5. Install dependencies
-pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+#In the projecta' terminal:
+    
+3. Create and activate virtual environment
+ 
+`python -m venv .venv`
 
- 6. Run
-streamlit run app.py
+ `.venv\Scripts\activate`        # for Windows
+ 
+ `source .venv/bin/activate`   # for Mac
+
+ 4. Install dependencies:
+
+  `pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu`
+
+ 5. Run the application:
+    
+   streamlit run app.py
