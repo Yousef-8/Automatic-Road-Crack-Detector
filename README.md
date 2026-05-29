@@ -26,7 +26,7 @@ road-crack-detector/ models/prep_best.pt
     road-crack-detector/models/prep_best.pt
 
 
-# In the projecta' terminal:
+### In the project's terminal:
     
 3. Create and activate virtual environment
  
